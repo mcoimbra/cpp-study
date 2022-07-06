@@ -1,0 +1,383 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Jul  6 12:59:13 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+NVM_INC = /home/dalek/.nvm/versions/node/v12.18.4/include/node
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+JOURNAL_STREAM = 9:57817
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 1)
+ 
+MAKEFILE_LIST :=  Makefile
+# environment
+JAVA_HOME = /usr/lib/jvm/default-java
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = dalek
+# environment
+MAKELEVEL := 0
+# environment
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+LC_CTYPE = pt_PT.UTF-8
+# makefile (from 'Makefile', line 8)
+CPPFLAGS = -Wall -DNDEBUG $(STDCFLAG)
+# environment
+MANAGERPID = 3631
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = pt_PT.UTF-8
+# makefile (from 'Makefile', line 1)
+CPP = g++
+# environment
+VSCODE_CWD = /home/dalek
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/dalek/.local/bin:/opt/gradle/gradle-7.4.2/bin:/home/dalek/bin/2FA:/home/dalek/bin/yubico:/home/dalek/bin/ripgrep:/home/dalek/bin/ethminer-0.18.0-cuda-9-linux-x86_64:/home/dalek/bin/tor-browser_en-US:/home/dalek/bin/gephi-0.9.2/bin:/home/dalek/bin/ncbi-blast-2.10.0+/bin:/home/dalek/bin/processing-3.5.4:/home/dalek/bin/pin:/home/dalek/bin/apache-maven-3.8.4/bin:/home/dalek/bin/eclipse/java-oxygen/eclipse:/home/dalek/bin/go1.17.linux-amd64/bin:/home/dalek/bin/blockchain:/home/dalek/bin/node-v14.16.1-linux-x64/bin:/home/dalek/bin:/home/dalek/bin/anaconda3/condabin:/home/dalek/.nvm/versions/node/v12.18.4/bin:/home/dalek/.cargo/bin:/home/dalek/.local/bin:/opt/gradle/gradle-7.4.2/bin:/home/dalek/bin/2FA:/home/dalek/bin/yubico:/home/dalek/bin/ripgrep:/home/dalek/bin/ethminer-0.18.0-cuda-9-linux-x86_64:/home/dalek/bin/tor-browser_en-US:/home/dalek/bin/gephi-0.9.2/bin:/home/dalek/bin/ncbi-blast-2.10.0+/bin:/home/dalek/bin/processing-3.5.4:/home/dalek/bin/pin:/home/dalek/bin/apache-maven-3.8.4/bin:/home/dalek/bin/eclipse/java-oxygen/eclipse:/home/dalek/bin/go1.17.linux-amd64/bin:/home/dalek/bin/blockchain:/home/dalek/bin/node-v14.16.1-linux-x64/bin:/home/dalek/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dalek/.dotnet/tools:/opt/gradle/gradle-7.4.2/bin:/home/dalek/.dotnet/tools:/opt/gradle/gradle-7.4.2/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+SESSION_MANAGER = local/dalek-P7xxTM1:@/tmp/.ICE-unix/3852,unix/dalek-P7xxTM1:/tmp/.ICE-unix/3852
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GOPATH = /home/dalek/go
+# environment
+NVM_BIN = /home/dalek/.nvm/versions/node/v12.18.4/bin
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 681444bb4d3b43c7989320d409d4c3fb
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 48642
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+CONDA_EXE = /home/dalek/bin/anaconda3/bin/conda
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 3818
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# makefile (from 'Makefile', line 16)
+SRC_DIR = src
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/dalek
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/dalek/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LOGNAME = dalek
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+NVM_CD_FLAGS = 
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = pt_PT.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# makefile (from 'Makefile', line 17)
+BUILD_DIR = build
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-7c85c860-f5b8-4501-b3c1-5f9f9ee5089a.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = dalek
+# environment
+LC_MONETARY = pt_PT.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = pt_PT.UTF-8
+# environment
+CONDA_SHLVL = 0
+# makefile (from 'Makefile', line 7)
+STDCFLAG = -std=c++17
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# makefile (from 'Makefile', line 22)
+BINS = hello_world
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-7cc7285c-1.68.1-main.sock
+# environment
+PYTHONPATH = /home/dalek/pip-packages:/home/dalek/pip-packages:
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+NVM_DIR = /home/dalek/.nvm
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = pt_PT.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = pt_PT.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+M3_HOME = /home/dalek/bin/apache-maven-3.8.4
+# environment
+LC_MEASUREMENT = pt_PT.UTF-8
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /home/dalek/bin/anaconda3/bin/python
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = pt_PT.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = pt_PT.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 48642
+# environment
+_CE_CONDA = 
+# variable set hash-table stats:
+# Load=128/1024=12%, Rehash=0, Collisions=26/164=16%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66305, inode 9281756): 9 files, no impossibilities.
+
+# 9 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+src/hello_world.cpp:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-05 22:45:50.934805009
+#  File has been updated.
+#  Successfully updated.
+
+all: hello_world
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+ 
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-05 22:58:50.304624149
+#  File has been updated.
+#  Successfully updated.
+
+hello_world: build/hello_world.o
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := hello_world
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := build/hello_world.o
+# automatic
+# | := 
+# automatic
+# < := build/hello_world.o
+# automatic
+# ^ := build/hello_world.o
+# automatic
+# ? := build/hello_world.o
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
+#  recipe to execute (from 'Makefile', line 27):
+	$(CPP) -o $(BUILD_DIR)/hello_world $(BUILD_DIR)/hello_world.o
+
+build/hello_world.o: src/hello_world.cpp
+#  Implicit rule search has not been done.
+#  Last modified 2022-07-06 12:53:27.154739834
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'Makefile', line 31):
+	$(CPP) $(CPPFLAGS) -o $(BUILD_DIR)/hello_world.o -c $(SRC_DIR)/hello_world.cpp
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 34):
+	rm $(BUILD_DIR)/*
+
+# files hash-table stats:
+# Load=8/1024=1%, Rehash=0, Collisions=0/25=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 18 / storage = 190 B / avg = 10 B
+# current buf: size = 8162 B / used = 190 B / count = 18 / avg = 10 B
+
+# strcache performance: lookups = 30 / hit rate = 40%
+# hash-table stats:
+# Load=18/8192=0%, Rehash=0, Collisions=1/30=3%
+# Finished Make data base on Wed Jul  6 12:59:13 2022
+
+ 

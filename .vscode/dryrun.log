@@ -1,0 +1,5 @@
+make hello_world --dry-run --keep-going --print-directory
+make: Entering directory '/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git'
+g++ -o build/hello_world build/hello_world.o
+make: Leaving directory '/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git'
+ 

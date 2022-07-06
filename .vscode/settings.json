@@ -1,0 +1,10 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git/build",
+            "binaryPath": "/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git/build/hello_world",
+            "binaryArgs": []
+        },
+    ]
+}
