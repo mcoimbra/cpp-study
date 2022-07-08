@@ -67,7 +67,7 @@ FetchContent_MakeAvailable(fmtlib)
 # 
 #set(CPPSTUDY_BUILD_DIR build)
 
-# Compile every physisical component's objects and executables into the root's 'build' directory.
+# Compile every physical component's objects and executables into the root's 'build' directory.
 set( CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/build )
 
 # Compile library objects and executables into the root's 'lib' directory.

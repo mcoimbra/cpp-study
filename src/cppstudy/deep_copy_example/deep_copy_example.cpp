@@ -1,6 +1,3 @@
-//
-// Created by dalek on 07-07-2022.
-//
 
 #include <iostream>
 #include <type_traits>
