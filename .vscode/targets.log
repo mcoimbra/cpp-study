@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Jul  6 12:59:13 2022
+# Make data base, printed on Mon Jul 11 11:06:57 2022
 
 # Variables
 
@@ -42,18 +42,21 @@ GDMSESSION = ubuntu
 XMODIFIERS = @im=ibus
 # makefile
 CURDIR := /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git
-# makefile
+# makefile (from 'Makefile', line 48)
 SHELL = /bin/sh
+# makefile (from 'Makefile', line 54)
+RM = /home/dalek/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/222.3244.6/bin/cmake/linux/bin/cmake -E rm -f
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 9:57817
+JOURNAL_STREAM = 9:63569
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 63)
+CMAKE_BINARY_DIR = /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git
 # makefile (from 'Makefile', line 1)
- 
 MAKEFILE_LIST :=  Makefile
 # environment
 JAVA_HOME = /usr/lib/jvm/default-java
@@ -75,28 +78,26 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 VSCODE_VERBOSE_LOGGING = true
 # environment
 LC_CTYPE = pt_PT.UTF-8
-# makefile (from 'Makefile', line 8)
-CPPFLAGS = -Wall -DNDEBUG $(STDCFLAG)
 # environment
-MANAGERPID = 3631
+MANAGERPID = 3129
+# makefile (from 'Makefile', line 35)
+MAKESILENT = -s
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
 LC_NAME = pt_PT.UTF-8
-# makefile (from 'Makefile', line 1)
-CPP = g++
 # environment
 VSCODE_CWD = /home/dalek
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/dalek/.local/bin:/opt/gradle/gradle-7.4.2/bin:/home/dalek/bin/2FA:/home/dalek/bin/yubico:/home/dalek/bin/ripgrep:/home/dalek/bin/ethminer-0.18.0-cuda-9-linux-x86_64:/home/dalek/bin/tor-browser_en-US:/home/dalek/bin/gephi-0.9.2/bin:/home/dalek/bin/ncbi-blast-2.10.0+/bin:/home/dalek/bin/processing-3.5.4:/home/dalek/bin/pin:/home/dalek/bin/apache-maven-3.8.4/bin:/home/dalek/bin/eclipse/java-oxygen/eclipse:/home/dalek/bin/go1.17.linux-amd64/bin:/home/dalek/bin/blockchain:/home/dalek/bin/node-v14.16.1-linux-x64/bin:/home/dalek/bin:/home/dalek/bin/anaconda3/condabin:/home/dalek/.nvm/versions/node/v12.18.4/bin:/home/dalek/.cargo/bin:/home/dalek/.local/bin:/opt/gradle/gradle-7.4.2/bin:/home/dalek/bin/2FA:/home/dalek/bin/yubico:/home/dalek/bin/ripgrep:/home/dalek/bin/ethminer-0.18.0-cuda-9-linux-x86_64:/home/dalek/bin/tor-browser_en-US:/home/dalek/bin/gephi-0.9.2/bin:/home/dalek/bin/ncbi-blast-2.10.0+/bin:/home/dalek/bin/processing-3.5.4:/home/dalek/bin/pin:/home/dalek/bin/apache-maven-3.8.4/bin:/home/dalek/bin/eclipse/java-oxygen/eclipse:/home/dalek/bin/go1.17.linux-amd64/bin:/home/dalek/bin/blockchain:/home/dalek/bin/node-v14.16.1-linux-x64/bin:/home/dalek/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dalek/.dotnet/tools:/opt/gradle/gradle-7.4.2/bin:/home/dalek/.dotnet/tools:/opt/gradle/gradle-7.4.2/bin
+PATH = /home/dalek/.local/bin:/opt/gradle/gradle-7.4.2/bin:/home/dalek/bin/2FA:/home/dalek/bin/yubico:/home/dalek/bin/ripgrep:/home/dalek/bin/ethminer-0.18.0-cuda-9-linux-x86_64:/home/dalek/bin/tor-browser_en-US:/home/dalek/bin/gephi-0.9.2/bin:/home/dalek/bin/ncbi-blast-2.10.0+/bin:/home/dalek/bin/processing-3.5.4:/home/dalek/bin/pin:/home/dalek/bin/apache-maven-3.8.4/bin:/home/dalek/bin/eclipse/java-oxygen/eclipse:/home/dalek/bin/go1.17.linux-amd64/bin:/home/dalek/bin/blockchain:/home/dalek/bin/node-v14.16.1-linux-x64/bin:/home/dalek/bin:/home/dalek/bin/anaconda3/condabin:/home/dalek/.nvm/versions/node/v12.18.4/bin:/home/dalek/.cargo/bin:/home/dalek/.local/bin:/opt/gradle/gradle-7.4.2/bin:/home/dalek/bin/2FA:/home/dalek/bin/yubico:/home/dalek/bin/ripgrep:/home/dalek/bin/ethminer-0.18.0-cuda-9-linux-x86_64:/home/dalek/bin/tor-browser_en-US:/home/dalek/bin/gephi-0.9.2/bin:/home/dalek/bin/ncbi-blast-2.10.0+/bin:/home/dalek/bin/processing-3.5.4:/home/dalek/bin/pin:/home/dalek/bin/apache-maven-3.8.4/bin:/home/dalek/bin/eclipse/java-oxygen/eclipse:/home/dalek/bin/go1.17.linux-amd64/bin:/home/dalek/bin/blockchain:/home/dalek/bin/node-v14.16.1-linux-x64/bin:/home/dalek/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dalek/.dotnet/tools:/opt/gradle/gradle-7.4.2/bin:/home/dalek/.local/share/JetBrains/Toolbox/scripts:/home/dalek/.dotnet/tools:/opt/gradle/gradle-7.4.2/bin:/home/dalek/.local/share/JetBrains/Toolbox/scripts
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/dalek-P7xxTM1:@/tmp/.ICE-unix/3852,unix/dalek-P7xxTM1:/tmp/.ICE-unix/3852
+SESSION_MANAGER = local/dalek-P7xxTM1:@/tmp/.ICE-unix/3346,unix/dalek-P7xxTM1:/tmp/.ICE-unix/3346
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -110,7 +111,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 681444bb4d3b43c7989320d409d4c3fb
+INVOCATION_ID = c0c6bf0bf30f4d29b0f4c3b5f306f336
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -120,7 +121,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 48642
+GIO_LAUNCHED_DESKTOP_FILE_PID = 21238
 # automatic
 %F = $(notdir $%)
 # environment
@@ -134,11 +135,9 @@ PWD = /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 3818
+SSH_AGENT_PID = 3312
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
-# makefile (from 'Makefile', line 16)
-SRC_DIR = src
 # environment
 GTK_MODULES = gail:atk-bridge
 # environment
@@ -153,6 +152,8 @@ VSCODE_CODE_CACHE_PATH = /home/dalek/.config/Code/CachedData/30d9c6cd9483b2cc586
 LOGNAME = dalek
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# makefile (from 'Makefile', line 57)
+EQUALS = =
 # environment
 NVM_CD_FLAGS = 
 # automatic
@@ -175,10 +176,8 @@ QT_IM_MODULE = ibus
 SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
-# makefile (from 'Makefile', line 17)
-BUILD_DIR = build
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-7c85c860-f5b8-4501-b3c1-5f9f9ee5089a.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-635c89a5-e122-4171-9558-4d0edead7a21.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -186,23 +185,21 @@ USER = dalek
 # environment
 LC_MONETARY = pt_PT.UTF-8
 # makefile
-.DEFAULT_GOAL := all
+.DEFAULT_GOAL := default_target
 # environment
 XDG_CURRENT_DESKTOP = Unity
+# makefile (from 'Makefile', line 60)
+CMAKE_SOURCE_DIR = /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
 LC_TELEPHONE = pt_PT.UTF-8
 # environment
 CONDA_SHLVL = 0
-# makefile (from 'Makefile', line 7)
-STDCFLAG = -std=c++17
 # default
 MAKE_COMMAND := make
 # default
 .VARIABLES := 
-# makefile (from 'Makefile', line 22)
-BINS = hello_world
 # automatic
 *F = $(notdir $*)
 # environment
@@ -210,9 +207,9 @@ VSCODE_IPC_HOOK = /run/user/1000/vscode-7cc7285c-1.68.1-main.sock
 # environment
 PYTHONPATH = /home/dalek/pip-packages:/home/dalek/pip-packages:
 # makefile
-MAKEFLAGS = pqrR
+MAKEFLAGS = pqrRs
 # environment
-MFLAGS = -pqrR
+MFLAGS = -pqrRs
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -243,6 +240,8 @@ LC_ALL = C
 CONDA_PYTHON_EXE = /home/dalek/bin/anaconda3/bin/python
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# makefile (from 'Makefile', line 51)
+CMAKE_COMMAND = /home/dalek/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/222.3244.6/bin/cmake/linux/bin/cmake
 # automatic
 ^F = $(notdir $^)
 # default
@@ -264,11 +263,11 @@ LC_ADDRESS = pt_PT.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 48642
+VSCODE_PID = 21238
 # environment
 _CE_CONDA = 
 # variable set hash-table stats:
-# Load=128/1024=12%, Rehash=0, Collisions=26/164=16%
+# Load=128/1024=12%, Rehash=0, Collisions=23/162=14%
 
 # Pattern-specific Variable Values
 
@@ -276,35 +275,192 @@ _CE_CONDA =
 
 # Directories
 
-# . (device 66305, inode 9281756): 9 files, no impossibilities.
+# SCCS: could not be stat'd.
+# . (device 66305, inode 9281756): 24 files, no impossibilities.
+ 
+# RCS: could not be stat'd.
 
-# 9 files, no impossibilities in 1 directories.
+# 24 files, no impossibilities in 3 directories.
 
 # Implicit Rules
 
-# No implicit rules.
+%: %,v
+
+%: RCS/%
+
+%: RCS/%,v
+
+%: SCCS/s.%
+
+%: s.%
+
+%.hpux_make_needs_suffix_list:
+
+# 6 implicit rules, 0 (0.0%) terminal.
 
 # Files
 
-# Not a target:
-src/hello_world.cpp:
-#  Implicit rule search has been done.
-#  Last modified 2022-07-05 22:45:50.934805009
-#  File has been updated.
-#  Successfully updated.
-
-all: hello_world
-#  Command line target.
-#  Implicit rule search has been done.
+cmake_force:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
 #  File does not exist.
- 
+#  File has not been updated.
+
+test/fast: test
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+NightlyBuild/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 230):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyBuild.dir/build.make CMakeFiles/NightlyBuild.dir/build
+
+ContinuousBuild/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 438):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousBuild.dir/build.make CMakeFiles/ContinuousBuild.dir/build
+
+hello_world/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 529):
+	$(MAKE) $(MAKESILENT) -f src/cppstudy/hello_world/CMakeFiles/hello_world.dir/build.make src/cppstudy/hello_world/CMakeFiles/hello_world.dir/build
+
+edit_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 80):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/home/dalek/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/222.3244.6/bin/cmake/linux/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+
+ExperimentalBuild/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 334):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalBuild.dir/build.make CMakeFiles/ExperimentalBuild.dir/build
+
+all: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Command line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/6=0%
+#  recipe to execute (from 'Makefile', line 100):
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git/CMakeFiles /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git//CMakeFiles/progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git/CMakeFiles 0
 
-# Not a target:
-.SUFFIXES:
+ContinuousUpdate/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 412):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousUpdate.dir/build.make CMakeFiles/ContinuousUpdate.dir/build
+
+ContinuousCoverage: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 459):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousCoverage
+
+NightlyCoverage: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 251):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyCoverage
+
+.PHONY: default_target cmake_force test test/fast edit_cache edit_cache/fast rebuild_cache rebuild_cache/fast all clean clean/fast preinstall preinstall/fast depend Experimental Experimental/fast Nightly Nightly/fast Continuous Continuous/fast NightlyMemoryCheck NightlyMemoryCheck/fast NightlyStart NightlyStart/fast NightlyUpdate NightlyUpdate/fast NightlyConfigure NightlyConfigure/fast NightlyBuild NightlyBuild/fast NightlyTest NightlyTest/fast NightlyCoverage NightlyCoverage/fast NightlyMemCheck NightlyMemCheck/fast NightlySubmit NightlySubmit/fast ExperimentalStart ExperimentalStart/fast ExperimentalUpdate ExperimentalUpdate/fast ExperimentalConfigure ExperimentalConfigure/fast ExperimentalBuild ExperimentalBuild/fast ExperimentalTest ExperimentalTest/fast ExperimentalCoverage ExperimentalCoverage/fast ExperimentalMemCheck ExperimentalMemCheck/fast ExperimentalSubmit ExperimentalSubmit/fast ContinuousStart ContinuousStart/fast ContinuousUpdate ContinuousUpdate/fast ContinuousConfigure ContinuousConfigure/fast ContinuousBuild ContinuousBuild/fast ContinuousTest ContinuousTest/fast ContinuousCoverage ContinuousCoverage/fast ContinuousMemCheck ContinuousMemCheck/fast ContinuousSubmit ContinuousSubmit/fast docs docs/fast fmt fmt/fast hello_world hello_world/fast help cmake_check_build_system
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+ExperimentalCoverage: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 355):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalCoverage
+
+NightlyMemoryCheck: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 173):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyMemoryCheck
+
+preinstall/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 121):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+
+ContinuousStart: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 394):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousStart
+
+NightlyStart: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 186):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyStart
+
+ExperimentalStart: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 290):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalStart
+
+NightlyUpdate/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 204):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyUpdate.dir/build.make CMakeFiles/NightlyUpdate.dir/build
+
+ExperimentalUpdate: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 303):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalUpdate
+
+.SUFFIXES: .hpux_make_needs_suffix_list
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -312,44 +468,276 @@ all: hello_world
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-05 22:58:50.304624149
+#  Last modified 2022-07-06 21:50:20.467971277
 #  File has been updated.
 #  Successfully updated.
 
-hello_world: build/hello_world.o
+Nightly/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 152):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Nightly.dir/build.make CMakeFiles/Nightly.dir/build
+
+ExperimentalTest/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 347):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalTest.dir/build.make CMakeFiles/ExperimentalTest.dir/build
+
+NightlyBuild: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 225):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyBuild
+
+test:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 70):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/home/dalek/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/222.3244.6/bin/cmake/linux/bin/ctest --force-new-ctest-process $(ARGS)
+
+.NOTPARALLEL:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+Continuous/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 165):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Continuous.dir/build.make CMakeFiles/Continuous.dir/build
+
+NightlyMemCheck/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 269):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyMemCheck.dir/build.make CMakeFiles/NightlyMemCheck.dir/build
+
+clean/fast: clean
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+ExperimentalBuild: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 329):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalBuild
+
+ContinuousMemCheck/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 477):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousMemCheck.dir/build.make CMakeFiles/ContinuousMemCheck.dir/build
+
+ContinuousUpdate: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+ 
+#  recipe to execute (from 'Makefile', line 407):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousUpdate
+
+NightlyTest/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 243):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyTest.dir/build.make CMakeFiles/NightlyTest.dir/build
+
+Experimental/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 139):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Experimental.dir/build.make CMakeFiles/Experimental.dir/build
+
+cmake_check_build_system:
+#  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
 #  Implicit/static pattern stem: ''
 #  File does not exist.
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # automatic
-# @ := hello_world
+# @ := cmake_check_build_system
 # automatic
 # % := 
 # automatic
 # * := 
 # automatic
-# + := build/hello_world.o
+# + := 
 # automatic
 # | := 
 # automatic
-# < := build/hello_world.o
+# < := 
 # automatic
-# ^ := build/hello_world.o
+# ^ := 
 # automatic
-# ? := build/hello_world.o
+# ? := 
 # variable set hash-table stats:
-# Load=8/32=25%, Rehash=0, Collisions=1/14=7%
-#  recipe to execute (from 'Makefile', line 27):
-	$(CPP) -o $(BUILD_DIR)/hello_world $(BUILD_DIR)/hello_world.o
+# Load=8/32=25%, Rehash=0, Collisions=3/14=21%
+#  recipe to execute (from 'Makefile', line 583):
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 
-build/hello_world.o: src/hello_world.cpp
+ContinuousSubmit/fast:
+#  Phony target (prerequisite of .PHONY).
 #  Implicit rule search has not been done.
-#  Last modified 2022-07-06 12:53:27.154739834
-#  File has been updated.
-#  Successfully updated.
-#  recipe to execute (from 'Makefile', line 31):
-	$(CPP) $(CPPFLAGS) -o $(BUILD_DIR)/hello_world.o -c $(SRC_DIR)/hello_world.cpp
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 490):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousSubmit.dir/build.make CMakeFiles/ContinuousSubmit.dir/build
+
+NightlySubmit/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 282):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlySubmit.dir/build.make CMakeFiles/NightlySubmit.dir/build
+
+docs/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 503):
+	$(MAKE) $(MAKESILENT) -f docs/CMakeFiles/docs.dir/build.make docs/CMakeFiles/docs.dir/build
+
+ExperimentalSubmit/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 386):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalSubmit.dir/build.make CMakeFiles/ExperimentalSubmit.dir/build
+
+ExperimentalMemCheck/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 373):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalMemCheck.dir/build.make CMakeFiles/ExperimentalMemCheck.dir/build
+
+ContinuousConfigure/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 425):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousConfigure.dir/build.make CMakeFiles/ContinuousConfigure.dir/build
+
+preinstall: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 116):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+
+ExperimentalConfigure/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 321):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalConfigure.dir/build.make CMakeFiles/ExperimentalConfigure.dir/build
+
+fmt/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 516):
+	$(MAKE) $(MAKESILENT) -f _deps/fmtlib-build/CMakeFiles/fmt.dir/build.make _deps/fmtlib-build/CMakeFiles/fmt.dir/build
+
+help:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 534):
+	@echo "The following are some of the valid targets for this Makefile:"
+	@echo "... all (the default if no target is provided)"
+	@echo "... clean"
+	@echo "... depend"
+	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... test"
+	@echo "... Continuous"
+	@echo "... ContinuousBuild"
+	@echo "... ContinuousConfigure"
+	@echo "... ContinuousCoverage"
+	@echo "... ContinuousMemCheck"
+	@echo "... ContinuousStart"
+	@echo "... ContinuousSubmit"
+	@echo "... ContinuousTest"
+	@echo "... ContinuousUpdate"
+	@echo "... Experimental"
+	@echo "... ExperimentalBuild"
+	@echo "... ExperimentalConfigure"
+	@echo "... ExperimentalCoverage"
+	@echo "... ExperimentalMemCheck"
+	@echo "... ExperimentalStart"
+	@echo "... ExperimentalSubmit"
+	@echo "... ExperimentalTest"
+	@echo "... ExperimentalUpdate"
+	@echo "... Nightly"
+	@echo "... NightlyBuild"
+	@echo "... NightlyConfigure"
+	@echo "... NightlyCoverage"
+	@echo "... NightlyMemCheck"
+	@echo "... NightlyMemoryCheck"
+	@echo "... NightlyStart"
+	@echo "... NightlySubmit"
+	@echo "... NightlyTest"
+	@echo "... NightlyUpdate"
+	@echo "... docs"
+	@echo "... fmt"
+	@echo "... hello_world"
+
+.SILENT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+depend:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 126):
+	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+
+NightlyUpdate: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 199):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyUpdate
 
 # Not a target:
 .DEFAULT:
@@ -357,27 +745,294 @@ build/hello_world.o: src/hello_world.cpp
 #  Modification time never checked.
 #  File has not been updated.
 
+default_target: all
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Nightly: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 147):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Nightly
+
+ExperimentalTest: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 342):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalTest
+
+NightlyConfigure/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 217):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyConfigure.dir/build.make CMakeFiles/NightlyConfigure.dir/build
+
+Continuous: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 160):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Continuous
+
+ContinuousTest: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 446):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousTest
+
 clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 107):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+
+ContinuousMemCheck: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 472):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousMemCheck
+
+rebuild_cache/fast: rebuild_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+NightlyTest: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 238):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyTest
+
+edit_cache/fast: edit_cache
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+Experimental: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+ 
+#  recipe to execute (from 'Makefile', line 134):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Experimental
+
+ContinuousSubmit: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 485):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousSubmit
+
+NightlySubmit: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 277):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlySubmit
+
+docs: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 498):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 docs
+
+ExperimentalSubmit: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 381):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalSubmit
+
+ExperimentalMemCheck: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 368):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalMemCheck
+
+ContinuousBuild: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 433):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousBuild
+
+ContinuousConfigure: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 420):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ContinuousConfigure
+
+NightlyConfigure: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 212):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyConfigure
+
+ExperimentalConfigure: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 316):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ExperimentalConfigure
+
+fmt: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 511):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fmt
+
+ContinuousCoverage/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 464):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousCoverage.dir/build.make CMakeFiles/ContinuousCoverage.dir/build
+
+NightlyCoverage/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 256):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyCoverage.dir/build.make CMakeFiles/NightlyCoverage.dir/build
+
+ExperimentalCoverage/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 360):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalCoverage.dir/build.make CMakeFiles/ExperimentalCoverage.dir/build
+
+NightlyMemCheck: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 264):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 NightlyMemCheck
+
+# Not a target:
+.hpux_make_needs_suffix_list:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 34):
-	rm $(BUILD_DIR)/*
+
+NightlyMemoryCheck/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 178):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyMemoryCheck.dir/build.make CMakeFiles/NightlyMemoryCheck.dir/build
+
+ContinuousStart/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 399):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousStart.dir/build.make CMakeFiles/ContinuousStart.dir/build
+
+ContinuousTest/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 451):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ContinuousTest.dir/build.make CMakeFiles/ContinuousTest.dir/build
+
+NightlyStart/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 191):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/NightlyStart.dir/build.make CMakeFiles/NightlyStart.dir/build
+
+ExperimentalStart/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 295):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalStart.dir/build.make CMakeFiles/ExperimentalStart.dir/build
+
+ExperimentalUpdate/fast:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 308):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ExperimentalUpdate.dir/build.make CMakeFiles/ExperimentalUpdate.dir/build
+
+hello_world: cmake_check_build_system
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 524):
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_world
+
+rebuild_cache:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 90):
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/home/dalek/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/222.3244.6/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 
 # files hash-table stats:
-# Load=8/1024=1%, Rehash=0, Collisions=0/25=0%
+# Load=85/1024=8%, Rehash=0, Collisions=15/294=5%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 18 / storage = 190 B / avg = 10 B
-# current buf: size = 8162 B / used = 190 B / count = 18 / avg = 10 B
+# strcache buffers: 1 (0) / strings = 118 / storage = 1728 B / avg = 14 B
+# current buf: size = 8162 B / used = 1728 B / count = 118 / avg = 14 B
 
-# strcache performance: lookups = 30 / hit rate = 40%
+# strcache performance: lookups = 484 / hit rate = 75%
 # hash-table stats:
-# Load=18/8192=0%, Rehash=0, Collisions=1/30=3%
-# Finished Make data base on Wed Jul  6 12:59:13 2022
+# Load=118/8192=1%, Rehash=0, Collisions=6/484=1%
+# Finished Make data base on Mon Jul 11 11:06:57 2022
 
  

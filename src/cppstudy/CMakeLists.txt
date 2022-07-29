@@ -1,3 +1,5 @@
 add_subdirectory(hello_world)
 add_subdirectory(deep_copy_example)
 add_subdirectory(numeric_limits_example)
+add_subdirectory(literal_type_example)
+add_subdirectory(constructor_delegation_example)

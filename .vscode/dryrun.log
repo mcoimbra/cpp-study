@@ -1,5 +1,26 @@
-make hello_world --dry-run --keep-going --print-directory
+make hello_world --dry-run --always-make --keep-going --print-directory
 make: Entering directory '/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git'
-g++ -o build/hello_world build/hello_world.o
+/home/dalek/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/222.3244.6/bin/cmake/linux/bin/cmake -S/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git -B/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git --check-build-system CMakeFiles/Makefile.cmake 0
+make -s -f CMakeFiles/Makefile2 hello_world
+make[1]: Entering directory '/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git'
+/home/dalek/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/222.3244.6/bin/cmake/linux/bin/cmake -S/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git -B/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git --check-build-system CMakeFiles/Makefile.cmake 0
+/home/dalek/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/222.3244.6/bin/cmake/linux/bin/cmake -E cmake_progress_start /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git/CMakeFiles 2
+make -s -f CMakeFiles/Makefile2 src/cppstudy/hello_world/CMakeFiles/hello_world.dir/all
+make[2]: Entering directory '/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git'
+make -s -f src/cppstudy/hello_world/CMakeFiles/hello_world.dir/build.make src/cppstudy/hello_world/CMakeFiles/hello_world.dir/depend
+make[3]: Entering directory '/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git'
+cd /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git && /home/dalek/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/222.3244.6/bin/cmake/linux/bin/cmake -E cmake_depends "Unix Makefiles" /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git/src/cppstudy/hello_world /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git/src/cppstudy/hello_world /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git/src/cppstudy/hello_world/CMakeFiles/hello_world.dir/DependInfo.cmake --color=
+make[3]: Leaving directory '/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git'
+make -s -f src/cppstudy/hello_world/CMakeFiles/hello_world.dir/build.make src/cppstudy/hello_world/CMakeFiles/hello_world.dir/build
+make[3]: Entering directory '/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git'
+/home/dalek/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/222.3244.6/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --green --progress-dir=/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git/CMakeFiles --progress-num=5 "Building CXX object src/cppstudy/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o"
+cd /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git/src/cppstudy/hello_world && /usr/bin/c++   -g -std=c++17 -MD -MT src/cppstudy/hello_world/CMakeFiles/hello_world.dir/hello_world.cpp.o -MF CMakeFiles/hello_world.dir/hello_world.cpp.o.d -o CMakeFiles/hello_world.dir/hello_world.cpp.o -c /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git/src/cppstudy/hello_world/hello_world.cpp
+/home/dalek/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/222.3244.6/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --green --bold --progress-dir=/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git/CMakeFiles --progress-num=6 "Linking CXX executable ../../../build/hello_world"
+cd /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git/src/cppstudy/hello_world && /home/dalek/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/222.3244.6/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/hello_world.dir/link.txt --verbose=
+make[3]: Leaving directory '/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git'
+/home/dalek/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/222.3244.6/bin/cmake/linux/bin/cmake -E cmake_echo_color --switch= --progress-dir=/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git/CMakeFiles --progress-num=5,6 "Built target hello_world"
+make[2]: Leaving directory '/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git'
+/home/dalek/.local/share/JetBrains/Toolbox/apps/CLion/ch-1/222.3244.6/bin/cmake/linux/bin/cmake -E cmake_progress_start /home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git/CMakeFiles 0
+make[1]: Leaving directory '/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git'
 make: Leaving directory '/home/dalek/Documents/Projects/CPP_REPOSITORIES/cpp-study.git'
  
